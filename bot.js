@@ -3,26 +3,12 @@ const client = new Discord.Client();
 var prefix = "m"
 
 
-client.on("ready", () => {
-    client.user.setPresence({
-      status: 'online',
-      game: { 
-         type: 0,
-         name: 'Life',
-         details: `Server GAMING`,
-         url: 'http://twitch.tv/Streammingg',
-         state: `إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ`,
-        application_id: '281376075802476544',
-         assets: {
-            small_image: ` `,
-            small_text: ' ' ,
-            large_image: ``,
-            large_text: `»1K SoON!• ` }
-    
-      }
-        });
-    });
-    
+cclient.on('ready', () => {
+  client.user.setGame(`»Tφp★ .`,'https://www.twitch.tv/v5bz');
+  console.log('---------------');
+  console.log('Desert Bot Is Online')
+  console.log('---------------')
+});
 
 
 
